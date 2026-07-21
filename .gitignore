@@ -1,0 +1,8 @@
+# Editor
+.vs
+
+# Pycache
+*__pycache__
+
+# Python Virtual Environment
+.venv
