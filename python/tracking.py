@@ -40,7 +40,7 @@ while True:
     # param2 -> confidence of circle
 
     circles = cv.HoughCircles(frame_GRAY, cv.HOUGH_GRADIENT, dp=1, minDist=600,
-                              param1=100, param2=40, minRadius=20, maxRadius=70)
+                              param1=100, param2=40, minRadius=30, maxRadius=70)
 
     if circles is not None:
         circles = circles[0].astype(int)
