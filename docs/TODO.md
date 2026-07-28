@@ -26,13 +26,18 @@
 - [ ] Use geometery for predictions
 
 
+### Website
+- [ ] Get a functional website
+- [ ] Able to incorprate AI
+- [ ] Buy custom domain
+
 ## Features
 - [ ] Switch camera
 - [ ] Detect hoop
 
 ## App development
-- [ ] Create .NET MAUI app if possible 
-- [ ] If MAUI cannot be made, switch to regular .NET
+- [ ] Use Swift later 
+- [ ] Publish on Apple Store
 
 ## Extra add-ons
 - [ ] Switch to C++ if python is slow
