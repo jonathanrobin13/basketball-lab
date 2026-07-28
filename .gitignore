@@ -9,3 +9,6 @@
 
 # Videos
 assets/real_throw.mp4
+
+# Models
+models/yolov8n.pt
