@@ -35,7 +35,7 @@ while cap.isOpened():
     if success:
 
         start = time.perf_counter()
-        results = model(frame)
+        results = model(source=frame, classes=[32], verbose=False)
 
         end = time.perf_counter()
         total_time = end - start
