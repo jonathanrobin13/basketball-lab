@@ -1,25 +1,70 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title>Basketlab</title>
-    <style>
-        button {
-            background-color: transparent;
-            border: 1px solid navy;
-            padding: 20px;
-            font-size: 1.4rem;
-        }
+    <title>BasketLab</title>
 
-        button:hover {
-            background-color: navy;
-            border: none;
-            color: white;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Improve your basketball shooting form with AI.">
+
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <!--code for linking logo
+    <link rel="icon" href="logo.png">
+    -->
+
 </head>
 
 <body>
-    <button>Click me</button>
+    <nav class="nav-bar">
+        <img src="../assets/logo.png" alt="logo">
+        <p class="basketlab-title">BasketLab</p>
+        <a class="nav-links" href="index.html"><u>Home</u></a>
+
+        <!--Need to put link here-->
+        <a class="nav-links">Practice</a>
+    </nav>
+
+    <main id="main">
+        <pre class="home-title">
+            <h1>Get your shot</h1>
+               <h2>     TO THE NEXT LEVEL</h2>
+        </pre>
+
+        <section id="basketlab-main-idea" class="info">
+
+            <p id="main-idea">
+                Wanna get your shooting form powerful? Try <span>BasketLab AI</span> and watch
+                your shooting improve drastically. It's That Easy. No Prices. No Plans. Just Pure Basketball.
+            </p>
+
+            <button class="buttons" id="get-started-btn" href="">Get Started Now &#8594</button>
+
+        </section>
+
+    </main>
+
+    <section id="example-shot-analysis">
+        <h2>Use AI to boost your shot, so that you can shoot with <span>confidence.</span></h2>
+        <div class="extra-info-cards">
+            <p>At BasketLab, AI analyzes your shooting form and tells you how to improve step-by-step. All you have to
+                do is show it your shoot the ball!</p>
+
+            <figcaption>BasketLab AI identifies your strong areas and weak areas, so that you have the best shot form.
+            </figcaption>
+            <video id="example-video" controls autoplay muted loop>
+                <source src="../assets/basketball_throw.mp4" type="video/mp4">
+            </video>
+        </div>
+
+    </section>
+
+    <div class="extra-info-cards">
+        <h3>No Plans. No Cost.</h3>
+        <p>BasketLab is 100% free. No price hassle, so you can focus on your shot.</p>
+    </div>
+
 </body>
 
 </html>
