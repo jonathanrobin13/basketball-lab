@@ -8,6 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Improve your basketball shooting form with AI.">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <!--code for linking logo
@@ -17,27 +23,48 @@
 </head>
 
 <body>
-    <nav class="nav-bar">
-        <img src="../assets/logo.png" alt="logo">
-        <p class="basketlab-title">BasketLab</p>
-        <a class="nav-links" href="index.html"><u>Home</u></a>
-
-        <!--Need to put link here-->
-        <a class="nav-links">Practice</a>
-    </nav>
+    <div class="nav-bar">
+	
+		<div class="logo">
+			<div class="logo-img">
+				<img src="../assets/logo.png" alt="logo">
+			</div>
+			
+			<div class="basketlab-title">
+				<p>BasketLab</p>
+			</div>
+		</div>
+	
+		<div class="nav-links">
+			<div class="home-link">
+				<a href="index.html"><u>Home</u></a>
+			</div>	
+			
+			<div class="practice-link">
+				<!--Need to put link here-->
+				<a class="nav-links">Practice</a>
+			</div>
+		</div>
+    </div>
 
     <main id="main">
-        <pre class="home-title">
-            <h1>Get your shot</h1>
-               <h2>     TO THE NEXT LEVEL</h2>
-        </pre>
 
+		
+		<div class="home-title">
+			<h1>Get Your Shot...</h1>
+			<h2>TO THE NEXT LEVEL.</h2>
+		</div>
+		
         <section id="basketlab-main-idea" class="info">
 
             <p id="main-idea">
                 Wanna get your shooting form powerful? Try <span>BasketLab AI</span> and watch
-                your shooting improve drastically. It's That Easy. No Prices. No Plans. Just Pure Basketball.
+                your shooting improve drastically.
             </p>
+			
+			<p id="important-text">
+				It's That Easy. No Prices. No Plans. Just Pure Basketball.
+			</p>
 
             <button class="buttons" id="get-started-btn" href="">Get Started Now &#8594</button>
 
@@ -64,6 +91,8 @@
         <h3>No Plans. No Cost.</h3>
         <p>BasketLab is 100% free. No price hassle, so you can focus on your shot.</p>
     </div>
+	
+
 
 </body>
 
