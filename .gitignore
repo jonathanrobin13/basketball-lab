@@ -7,6 +7,9 @@
 # Python Virtual Environment
 .venv
 
+# Backend - Server
+backend
+
 # Videos
 assets/real_throw.mp4
 
