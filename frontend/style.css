@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Space Grotesk", Arial;
+}
+
+pre {
+    font-family: "Space Grotesk";
+}
+
+.home-title {
+	font-family: "Inter", Arial;
+}
+
+.nav-bar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.nav-links {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+}
+
+.logo {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 10px;
+}
+
+#important-text {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+span {
+	font-weight: bold;
+}
+
+
+#main {
+	text-align: center;
+	background-image: url("../assets/basketball.jpg");
+}
+
+#example-video {
+    width: 400px;
+    height: 300px;
+}
