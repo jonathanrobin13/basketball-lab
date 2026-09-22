@@ -1,4 +1,6 @@
-async function createObjectDetector {
+import {FilesetResolver, PoseLandmarker
+
+async function createPoseLandmarker {
 	
 	const vision = await FilesetResolver.forVisionTasks(
 	"https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@latest/wasm");
@@ -9,7 +11,7 @@ async function createObjectDetector {
 		runningMode: "VIDEO"
 	});
 	
-	objectDetector.detect();
+	
 	
 }
 

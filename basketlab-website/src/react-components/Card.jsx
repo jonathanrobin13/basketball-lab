@@ -1,4 +1,4 @@
-import logo from './assets/react.svg'
+import logo from '../assets/img/react.svg'
 
 function Card(props) {
 	return(
